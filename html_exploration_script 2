@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="HTML Master Exploration">
+    <meta name="keywords" content="HTML, learning, exploration">
+    <meta name="author" content="Naveen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML MASTER EXPLORATION</title>
+    <style>
+      body{
+      font-family:Arial;
+      margin:20px;
+      }
+      .box {
+          border: 2px solid black;
+          padding: 10px;
+          margin: 10px 0;
+      }
+      .flex{
+          display: flex;
+          gap: 10px;
+      }
+      </style>
+</head> 
+<body>
+<h1>Main Heading</h1>
+<h2>Sub Heading</h2> 
+<h3>Smaller Heading</h3>
+<p>This is a <b>bold</b>,<i>italic</i>,<u>underlined</u> paragraph</p>
+<p>Superscript: 10<sup>2</sup></p>
+<p>Superscript: H<sub>2</sub>0</p>
+<hr> 
+<h2>links</h2>
+<a href="https://www.google.com" target="_blank">
+open google
+</a>  
+<h2>Images</h2>
+<img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="google image">
+<h2>lists</h2>
+<h3>UnOrdered list</h3>
+<ul><li>apple</li><li>banana</li></ul>
+<h3>Ordered List</h3>  
+<ol><li>step 1</li><li>step 2</li></ol>
+  
+  
+  
+  
+      
