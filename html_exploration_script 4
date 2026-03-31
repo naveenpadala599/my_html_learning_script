@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="HTML Master Exploration">
+  <meta name="keywords" content="HTML, Learning, Exploration">
+  <meta name="author" content="You">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Master Exploration</title>
+  <style>
+    body {
+       font-family: Arial;
+       margin: 20px;
+    }
+    
+    .box {
+       border: 2px solid black;
+       padding: 10px;
+       margin: 10px 0;
+    }
+    
+    .flex {
+       display: flex;
+       gap: 10px;
+    }
+  </style>
+</head>   
+
+<body>
+<h1>Main Heading</h1>
+<h2>Sub Heading</h2> 
+<h3>Smaller heading</h3>
+<p>This is a <b>bold</b>,<i>italic</i>,<u>underline</u> paragraph</p>
+<p>superscript: 10<sup>2</sup>superscript<p>
+<p>H<sub>2</sub>O</p> 
+<hr>
+<h2>Links</h2>
+<a href="https://www.google.com" target="_blank">open google</a>
+<p></p>
+<a href="#bookmark">Jump to Bookmark</a>  
+<h2>Images</h2>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Googleplex_HQ_%28cropped%29.jpg/500px-Googleplex_HQ_%28cropped%29.jpg" alt="Placeholder Image">
+<h2>Lists</h2>  
+<h3>UnOrdered List</h3>  
+<ul>
+  <li>Apple</li>
+  <li>Banana</li>
+</ul>  
+<h3>Ordered List</h3>
+<ol>
+  <li>step 1</li>
+  <li>step 2</li>
+</ol> 
+<h3>Definition List</h3>
+<dl>
+  <dt>HTML</dt>
+  <dd>Structure of webpages</dd>
+</dl> 
+<h2>Tables</h2>  
+<table border="1">
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Naveen</td>
+    <td>28</td>
+  </tr>
+</table>  
+<h2>Div & Span</h2>
+<div class="box">I am a Div (block element)</div>
+<span class="box">I am a span (inline element) </span>
+<h2 id="bookmark">This is the bookmark</h2>
+  
