@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HTML Exploration</title>
+</head>  
+<body>
+  <h2>Forms</h2>
+  <form>
+    <label>Name:</label>
+    <input type="text" placeholder="Enter name"><br><br>
+    <label>Password</label>
+    <input type="password"><br><br>
+    <label>Email:</label>
+    <input type="email"><br><br>
+    <label>Age:</label>
+    <input type="number"> <br><br>
+    <label>Date:</label>
+    <input type="date"><br><br>
+    Gender:
+    <input type="radio" name="gender">Male
+    <input type="radio" name="gender">Female <br><br>
+      
+    
+      
+  </form>
+</body> 
+</html>      
