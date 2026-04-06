@@ -1,0 +1,43 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="HTML Master Exploration">
+  <meta name="keywords" content="HTML, learning, exploration">
+  <meta name="author" content="You">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Master Exploration</title>
+  <style>
+    body{
+       font-family: Arial;
+       margin: 20px;
+    }
+    .box{
+       border: 2px solid black;
+       padding: 10px;
+       margin: 10px 0
+    }
+    .flex{
+       display: flex;
+       gap: 10px;
+    }
+  </style>
+</head>
+<body>
+  <form>
+  <h2>skills</h2>
+  <input type="checkbox">HTML<br><br>
+  <input type="checkbox">CSS<br><br>
+  <select>
+    <option>
+      INDIA
+    </option>
+    <option>
+      USA
+    </option>
+  </select> <br><br>
+  <textarea placeholder="Write Message"></textarea><br><br>
+  <button type="submit">submit</button>  
+  </form>  
+</body>
+</html>    
