@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="HTML Master Exploration">
+  <meta name="keywords" content="HTML, learning, exploration">
+  <meta name="author" content="You">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Master Exploration</title>
+  <style>
+    body{
+       font-family: Arial;
+       margin: 20px;
+    }
+    .box{
+       border: 2px solid black;
+       padding: 10px;
+       margin: 10px 0
+    }
+    .flex{
+       display: flex;
+       gap: 10px
+    }
+  </style>  
+</head>  
+<body>
+  <h2>Media</h2>
+  <audio controls>
+    <source src="sample.mp3" type="audio/mpeg">
+  </audio>
+  <video width="300" controls>
+    <source src="grok-video-a8cfa7c9-3d4d-4079-b48e-a768f4d5c5ef.mp4" type="video/mp4">
+  </video>
+  <h2>Semenatic layout</h2> 
+  <header class="box">Header</header>
+  <nav class="box">Navigation Menu</nav> 
+</body>
+</html>    
+    
