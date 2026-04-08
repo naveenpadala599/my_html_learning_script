@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="HTML MASTER EXPLORATION"> 
+  <meta name="keywords" content="HTML, learning, exploration">
+  <meta name="author" content="you">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML master exploration</title>
+  <style>
+    body{
+      font-family: Arial;
+      margin: 20px;
+    
+    }
+    .box{
+      border: 2px solid black;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    .flex{
+      display: flex;
+      gap: 10px;
+    
+    }
+    </style> 
+    
+</head>  
+<body>
+<main class="box">
+  <article>
+    <h3>Article Title</h3>
+    <p>Article content...</p>
+  </article>  
+  <aside class="box">Sidebar</aside>
+    
+</main>
+<footer class="box">Footer</footer>
+<h2>Progress and Meter</h2>
+<progress value="70" max="100"></progress><br>
+<meter value="0.6">60%</meter>
+<h2>IFRAME</h2>
+<iframe src="https://example.com" width="500" height="300"></iframe>
+<h2 id="bookmark">Bookmark target</h2>
+<p>you jumped here</p>
+</body>
+</html>    
