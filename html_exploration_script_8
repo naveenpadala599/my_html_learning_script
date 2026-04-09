@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="HTML Master Exploration">
+<meta name="keywords" content="html,learning,exploration">
+<meta name="author" content="you">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>HTML master exploration</title>
+<style>
+  body{
+   font-family: Arial;
+   margin: 20px;
+  }
+  .box{
+   border: 2px solid black;
+   padding: 10px
+   margin: 10px 0
+  }
+  .flex{
+   display: flex
+   gap: 10px
+  }
+</style>  
+</head>
+<body>
+  <p>superscript: 2<sup>2</sup></p>
+  <p>subscript: h<sub>2</sub>o</p>
+  <hr>
+  <a href="https://www.google.com" target=_blank>google</a> <br>
+  <a herf="#bookmark">JUMP TO BOOKMARK</a>
+  <img src="https://via.placeholder.com/150" alt="placeholder image">
+  <dl>
+    <dt><ul>HTML:</ul></dt>
+    <dd>Structure of webpage</dd>
+  </dl>  
+  <table border="1">
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>NAVEEN</td>
+      <td>28</td>
+    </tr>
+  </table>  
+</body>  
