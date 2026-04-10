@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="HTML Master Script"> 
+  <meta name="keywords" content="HTML, Learning, Exploration">  
+  <meta name="author" content="You">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Master Script</title>
+  <style>
+    body{
+      font-family: Arial;
+      margin: 20px;
+    }
+    .box{
+      border: 2px solid black;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    .flex{
+      display: flex;
+      gap: 10px;
+    }
+  </style>  
+  </head>
+  <body>
+    <h2>div & span</h2>
+    <div class="box">I am a div (block element)</div>
+    <span class="box">I am a span (Inline element)</span>
+    <form>
+      <label>Name:</label>
+      <input type="text" placeholder="Enter name"><br><br>
+      <label>Password:</label>
+      <input type="password" placeholder="Enter password" ><br><br> 
+      <label>Email:</label>
+      <input type="email" placeholder="Enter email"><br><br>
+      <label>Age:</label>  
+      <input type="number" placeholder="Enter age">  
+    </form>  
+  </body>
+  </html>      
