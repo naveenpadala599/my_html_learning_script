@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="HTML Master script"> 
+    <meta name="keywords" content="HTML, Learning, Exploration">  
+    <meta name="author" content="you">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Master Script</title>
+    <style>
+      body{
+       font-family: Arial;
+       margin: 10px;
+      }
+      .box{
+       border: 2px solid black;
+       padding: 10px;
+       margin: 10px 0;
+      }
+      .flex{
+       display: flex;
+       gap: 10px;
+      }
+    </style>  
+  
+  </head>
+  <body>
+    <form>
+    <textarea placeholder="Enter your text"></textarea><br><br>
+    <button type="submit">Submit</button>
+    </form>
+    <h2>Media</h2>
+    <audio controls>
+      <source src="sample.mp3" type="audio/mpeg">
+    </audio>  
+    <video width="300" controls>
+      <source src="sample.mp4" type="video/mp4">
+    </video>
+      
+    </video>  
+  </body>    
+</html>  
