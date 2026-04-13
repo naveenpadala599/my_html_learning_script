@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="HTML Master Script">
+    <meta name="keywords" content="HTML, Learning, Exploration">
+    <meta name="author" content="you">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Exploration Script</title>
+    <style>
+      body{
+        font-family: Arial;
+        margin: 10px;
+      }
+      .box{
+        border: 2px solid black;
+        padding: 10px;
+        margin: 10px 0;
+      }
+      .flex{
+        display: flex;
+        gap:10px;
+      }
+    </style>     
+  </head>
+  <body>
+    <h2>Simantic Layout</h2>
+    <header class="box">Header</header>
+    <nav class="box">Navigation Menu</nav>
+    <main class="box">
+      <article>
+        <h3>Article Title</h3>
+        <p>Article Content.....</p>
+      </article>
+      <aside class="box">Sidebar</aside>
+    </main>
+    <footer class="box">footer</footer>
+  </body>    
+</html>  
