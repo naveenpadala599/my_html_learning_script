@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="HTML Exploration Script"> 
+    <meta name="keywords" content="HTML, Learning, Exploration">  
+    <meta name="author" content="Naveen">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Exploration Script</title>  
+    <style>
+      body{
+        font-family: Arial;
+        margin: 20px;
+      }
+      .box{
+        border: 2px solid black;
+        padding: 10px;
+        margin: 10px 0;
+      }
+      .flex{
+        display: flex;
+        gap: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Interactive Elements</h2>
+    <details>
+      <summary>EXPAND.......</summary>
+      Hidden content revealed
+    </details>
+    <h2>Progress & Meter</h2>
+    <progress value="70" max="100"></progress><br>
+    <meter value="0.6">60%</meter>
+    <h2>Iframe</h2>
+    <iframe src="" width="300" height="200"></iframe>
+  </body>    
+</html>  
