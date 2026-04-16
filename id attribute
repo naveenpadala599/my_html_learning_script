@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>ID Attribute HTML Exploration</title>    
+</head>
+<body>
+  <h1 id="main_title">welcome to ID exploration</h1>
+  <hr>
+  <h2 id="section_one">Section 1</h2>  
+  <p id="intro_paragraph">This paragraph explains what an ID is. Each ID must be unique on a page, </p>  
+  <hr>
+    
+   
+</body>      
+</html>
