@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>HTML name tag</title>
+  </head>
+  <body>
+   <h2>Gender</h2>
+   <input type="radio" name="gender" value="male">Male
+   <input type="radio" name="gender" value="female">Female  
+   <input type="radio" name="gender" value="others">Others
+   <!-- if name is same in radio type input, users are only allowed to select one option--><br>
+   <h2>Hobbies</h2>  
+   <input type="checkbox" name="hobby" value="coding">Coding<br>
+   <input type="checkbox" name="hobby" value="music">Music<br>
+   <input type="checkbox" name="hobby" value="sports">Sports<br>  
+   <!--if name is same in checkbox type input, users are allowed to select one or more options and they are sent as a group under name hobby-->
+  </body>
+ 
+</html>
