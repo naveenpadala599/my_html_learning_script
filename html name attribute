@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>HTML name attribute</title>
+  </head>
+  <body>
+   <form action="/login">
+     <input type="text" name="username"  placeholder="username"><br><br>
+     <input type="password" name="password" placeholder="password"><br><br>
+     <button>submit</button>  
+      
+   </form>
+
+  </body>
+ 
+</html>
