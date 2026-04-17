@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Type attribute exploration</title>   
+  </head>
+  <body>
+    <h3>"type" Attribute demo</h3>
+    <input type="text"><br><br>
+    <input type="password"><br><br>
+    <input type="email"><br><br>
+    <input type="date"><br><br>
+    <input type="number"><br><br>
+    <input type="submit"><br><br>
+    <input type="color"><br><br> 
+  </body>  
+</html>  
