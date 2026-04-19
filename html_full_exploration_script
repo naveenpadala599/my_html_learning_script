@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="HTML Master Script">
+    <meta name="keywords" content="HTML, learning, exploration">
+    <meta name="author" content="Naveen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML exploration script</title>
+    <style>
+      body{
+        font-family: Arial;
+        margin: 20px;
+      }
+      .box{
+        border: 2px solid black;
+        padding: 10px;
+        margin: 10px 0;
+      }
+      .flex{
+        display: flex;
+        gap: 10px;
+      }
+    </style>
+</head>
+<body>
+  <h1>Main Heading</h1>
+  <h2>Sub-Heading</h2>
+  <h3>Smaller-Heading</h3>
+  <p>This is a <b>bold</b>,<i> italic</i>,<u> underlined</u>, paragraph</p>
+  <p>subscript: H<sub>2</sub>O</p>
+  <p>superscript: 10<sup>2</sup></p>
+  <hr>
+  <h2>LINKS</h2>
+    <a href="https://www.google.com" target="_blank">Google</a><br><br>
+  <a href="#bookmark">Jump to bookmark</a> 
+  <h2>IMAGES</h2>
+  <img src="https://wallpapercave.com/wp/kmmXJbb.jpg" alt="Placeholder Image" width="300">  
+  <h2>LISTS</h2>
+  <h3>Unordered Lists</h3>
+    <ul>
+     <li>apple</li>
+     <li>orange</li> 
+    </ul>
+    <ol>
+     <li>step 1</li>
+     <li>step 2</li> 
+    </ol>
+    <h3>Definition List</h3>
+    <dl>
+      <dt>HTML</dt>
+      <dd>Structure of webpages</dd>
+    </dl>
+    <h2>Tables</h2>
+    <table border="1">
+    <tr>
+     <th>Name</th>
+     <th>Age</th>  
+    </tr> 
+    <tr>
+     <td>Alice</td>
+     <td>25</td> 
+    </tr> 
+    </table>
+    <h2>Div & Span</h2>
+    <div class="box">I am div (Block Element)</div>
+    <span class="box"> I am span (inline Element)</span>
+    <h2>Forms</h2>
+    <form>
+     <label>Name: </label>
+     <input type="text" placeholder="Enter name"><br><br>
+     <label>Password: </label>  
+     <input type="password" placeholder="Enter Password"><br><br>
+     <label>Email: </label>
+     <input type="email" placeholder="Enter Email"><br><br>
+     <label>Age: </label>
+     <input type="number" placeholder="Enter Age"> <br><br> 
+     <label>Date of birth: </label> 
+     <input type="date" placeholder="Enter date of birth">
+     <h2>Gender: </h2> 
+     <label>Male
+     <input type="radio" name="gender" value="male">
+     </label>
+     <label>Female 
+     <input type="radio" name="gender" value="female">
+     </label>
+     <label>Others
+     <input type="radio" name="gender" value="others">  
+     </label> 
+     <h2>Skills:</h2>
+     <label>HTML
+     <input type="checkbox" name="skills" value="HTML">
+     </label>
+     <label>CSS<input type="checkbox" name="skills" value="CSS">
+     </label><br><br>
+     <label>Country:
+     <select>
+      <option>India</option> 
+      <option>USA</option>  
+     </select>  
+     </label><br><br>
+     <label>Write your message:
+     <textarea placeholder="write message"></textarea>
+     </label><br><br> 
+     <button type="submit">submit</button>
+    </form>
+    <h2>Media</h2>
+    <audio controls>
+      <source src="sample-3s.mp3" type="audio/mpeg">
+    </audio> 
+    <video width="300" controls>
+      <source src="html.mp4" type="video/mp4"> 
+    </video>
+    <h2>Semantic Layout</h2>  
+    <header class="box">Header</header>
+    <nav class="box">Navigation Menu</nav>
+    <main class="box">
+      <article>
+       <h3>Article title</h3>
+       <p>article content...</p>    
+      </article>  
+      <aside class="box">Sidebar</aside>   
+    </main>
+    <footer class="box">Footer</footer>
+    <h2>Interactive Elements</h2>
+        <details>
+          <summary>Click to expand</summary>
+          Hidden content appears
+        </details>
+    <h2>Progress and meter</h2>
+        <progress value="70" max="100"></progress><br><br>
+        <meter value="0.6">60%</meter>
+    <h2>Iframe</h2> 
+    <iframe src="https://www.wikipedia.org" width="300" height="200"></iframe>   
+    <h2 id="bookmark">Bookmark Target</h2> 
+    <p>You jumped here</p>    
+       
+</body>
+</html>
