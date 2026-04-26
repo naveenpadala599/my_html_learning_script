@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login</title>
+  </head>
+  <body>
+   <input data-testid="username" placeholder="Username"><br><br>
+   <input data-testid="username" placeholder="Password"><br><br> 
+   <button data-testid="login-btn">Login</button>  
+  </body>
+</html>
