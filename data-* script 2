@@ -1,1 +1,15 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Blog</title>
+  </head>
+  <body>
+    <article
+             data-author="Naveen"
+             data-category="Python"
+             data-reading-time="5">
+             <h1>Learning Python Daily</h1>
+             <p>Consistency beats intesity.</p>
+      </article>
+  </body>
+</html>
