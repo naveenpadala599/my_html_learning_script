@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>User Profile</title>
+  </head>
+  <body>
+   <div data-user-id="42"
+         data-plan="premium"
+         data-joined="2026-04-26">
+         <h2>Naveen</h2>
+         <p>Premium Member</p>
+     
+   </div>
+  </body>
+</html>
