@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Navigation</title>
+  </head>
+  <body>
+   <nav>
+     <a href="#" data-page="home">Home</a><br>
+     <a href="#" data-page="about">About</a><br>
+     <a href="#" data-page="contact">Contact</a><br>
+   </nav>
+  </body>
+</html>
